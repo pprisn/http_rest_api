@@ -1,6 +1,7 @@
+TARGET=apiserver  
 .PHONY: build
 build:
-	go build -v ./cmd/apiserver
+	go build -v -o ${TARGET} ./cmd/apiserver
 
 .PHONY: test
 test:
