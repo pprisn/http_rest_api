@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"github.com/BurntSushi/toml"
-	"github.com/pprisn/http-rest-api/internal/app/apiserver"
+	"github.com/pprisn/http_rest_api/internal/app/apiserver"
 	"log"
 )
 
