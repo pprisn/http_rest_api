@@ -43,6 +43,10 @@ func (s *APIServer) configureLogger() error {
 		return err
 	}
 	s.logger.SetLevel(level)
+	formatter := &logrus.TextFormatter{
+	    FullTimestamp: true,
+	}
+	s.logger.SetFormatter(formatter)
 	return nil
 
 }
