@@ -1,3 +1,6 @@
 bind_addr = ":8080"
 log_level = "debug"
 
+[store]
+database_url = "postgres://ppri@localhost/restapi_dev?sslmode=verify-full"
+database_url2 = "host='localhost' dbname='restapi_dev' sslmode='require'"
